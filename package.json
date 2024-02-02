@@ -1,0 +1,32 @@
+{
+    "name":                    "huds-hud-lowerthird",
+    "description":             "Lower Third HUD",
+    "version":                 "0.9.0",
+    "author": {
+        "name":                "Dr. Ralf S. Engelschall",
+        "email":               "rse@engelschall.com",
+        "url":                 "http://engelschall.com"
+    },
+    "license":                 "MIT",
+    "main":                    "package.json",
+    "huds": {
+        "client":              "index.html"
+    },
+    "dependencies": {
+        "vue":                 "3.4.15",
+        "vue3-sfc-loader":     "0.9.4",
+        "less":                "4.2.0",
+        "mousetrap":           "1.6.5",
+        "animejs":             "3.2.2",
+        "typopro-web":         "4.2.6"
+    },
+    "peerDependencies": {
+        "huds":                ">=2.1.4"
+    },
+    "devDependencies": {
+        "huds":                ">=2.1.4"
+    },
+    "scripts": {
+        "test":                "huds -v3 -a 0.0.0.0 -p 8899 -d lowerthirds:.,index.yaml"
+    }
+}

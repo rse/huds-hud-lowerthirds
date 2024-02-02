@@ -1,0 +1,16 @@
+
+control:
+    canvasBg: "#111111"
+    nameFn:   "TypoPRO Source Sans Pro"
+    nameBg:   "#444444"
+    nameFg:   "#f0f0f0"
+    textFn:   "TypoPRO Source Sans Pro"
+    textBg:   "#f0f0f0"
+    textFg:   "#111111"
+
+render:
+    textFn:   "TypoPRO Source Sans Pro"
+    textFs:   16pt
+    textBg:   "#ffffff"
+    textFg:   "#000000"
+
